@@ -36,7 +36,7 @@ const NavBar = (props) => {
         <div className="header">
             <div className="main-header">
                 <Paper
-                    sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 600, height: 40 }}
+                    sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 600, height: 40, zIndex: 5 }}
                 >
                     <InputBase
                         sx={{ ml: 1, flex: 1 }}

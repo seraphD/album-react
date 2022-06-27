@@ -5,9 +5,6 @@ import NavBar from './components/Navbar';
 import Result from "./components/Result";
 
 class Album extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
 
